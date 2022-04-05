@@ -1,5 +1,5 @@
 {
-  "name": "vue-infinite-loading",
+  "name": "@schuelerkarriere/vue-infinite-loading",
   "version": "2.4.5",
   "description": "An infinite scroll plugin for Vue.js",
   "main": "dist/vue-infinite-loading.js",

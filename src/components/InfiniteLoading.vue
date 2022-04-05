@@ -319,6 +319,10 @@ export default {
         result = document.querySelector(this.forceUseInfiniteWrapper);
       }
 
+      if (typeof this.forceUseInfiniteWrapper === 'string' && this.forceUseInfiniteWrapper === 'window') {
+        result = window;
+      }
+
       if (!result) {
         if (elm.tagName === 'BODY') {
           result = window;
